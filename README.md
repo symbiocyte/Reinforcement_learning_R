@@ -7,7 +7,7 @@ Sutton & Barto,  Reinforcement Learning: An Introduction 2nd ed. (free online)<b
 ...<br>
 
 <b>Treasure on the right</b><br>
-The first file <i>treasure_on_the_right.R</i> and <i>treasure_on_the_right1.1.R</i> are based on python code submitted by: 周莫烦
+The first file <i>treasure_on_the_right.R</i> and <i>treasure_on_the_right1.1.R</i> are based on python code submitted by: 周莫烦<br>
 His github is found at https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
 
 <i>treasure_on_the_right.R</i> contains also commented-out original python code.<br>
