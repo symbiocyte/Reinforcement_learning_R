@@ -11,6 +11,7 @@ The first file <i>treasure_on_the_right.R</i> and <i>treasure_on_the_right1.1.R<
 His github is found at https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
 
 <i>treasure_on_the_right.R</i> contains also commented-out original python code.<br>
+<i>treasure_on_the_right1.1.R</i> is a cleaned up version.<br>
 The idea is simply that the agent o needs to find the target T. in a 1 dimensional world:<br>
 o------T<br>
 The agent starts on the left, can only move left or right and is only rewarded if it reaches the target T.
