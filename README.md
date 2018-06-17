@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning with R
 Contains examples for (deep) reinforcement learning using R, Keras (TF) and OpenAI-gym
-The idea here is to transfer python code to R in order to run deep reinforcment learning algorithms directly. For theoretical background please refer to dedicated publications, e.g.<br>
+The idea here is to transfer python code to R in order to run deep reinforcement learning algorithms directly. For theoretical background please refer to dedicated publications, e.g.<br>
 Mnih <i>et al.</i> Playing Atari with Deep Reinforcement Learning (2013)<br>
 Youtube: RL Course by David Silver<br>
 Sutton & Barto,  Reinforcement Learning: An Introduction 2nd ed. (free online)<br>
@@ -23,7 +23,15 @@ The principal idea is also from 周莫烦 but the code diverges considerably not
 <br>
 
 <b>Q_RL_maze1_SARSA.0.R</b><br>
-Is almost the same but uses the SARSA algorithm (State, Action, Reward, future State, future Action). only the learn function is different and slight changes in the update function are required.
+Is almost the same but uses the SARSA algorithm (State, Action, Reward, future State, future Action). Only the learn function is different and slight changes in the update function are required.<br>
+
+<b>DQN_hillcar.0.1.R</b><br>
+This is now a deep reinforcement learning example using the "MountainCar-v0" environment from OpenAI-gym. I did not jet test this on a Windows PC but I red that it is possible to get it to work. Additionally you have to install and run a python server gym-http-api (started outside of R). The server is then addressed from within R via the Package "gym". Additionally the "keras" package needs to be installed in order to run e.g. Tensorflow. <br>
+runDQN_car.R can be used to observe the success of the model, an .hdf file has to be loaded.
+<br><br>
+I hope this will encourage people to also consider R as scripting language for RL tasks and opens this interesting technique to wider applications.
+<br>
+Harald Berger
 
 
 
