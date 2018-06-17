@@ -19,7 +19,11 @@ The agent starts on the left, can only move left or right and is only rewarded i
 <b>Q_RL_maze1.0.R</b><br>
 In this script a maze problem is tackled, the agent starts in the upper left corner of a 4x4 maze which has 2 black holes and a treasure in the middle. The agent has to learn to walk around the holes to get to the treasure (see file Maze1.png). <br>
 Note that here the Q-table is created on the fly, meaning that only when a new state (position in the maze) is experienced the Q values are appended to the table. <br>
+The principal idea is also from 周莫烦 but the code diverges considerably not at least because also the rendering of the maze is done in R.
+<br>
 
+<b>Q_RL_maze1_SARSA.0.R</b><br>
+Is almost the same but uses the SARSA algorithm (State, Action, Reward, future State, future Action). only the learn function is different and slight changes in the update function are required.
 
 
 
