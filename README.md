@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning with R
-Contains examples for (deep) reinforcement learning using R, Keras (TF) and OpenAI-gym
-The idea here is to transfer python code to R in order to run deep reinforcement learning algorithms directly. For theoretical background please refer to dedicated publications, e.g.<br>
+Contains examples for (deep) reinforcement learning using R, Keras (TF) and OpenAI-gym.
+The idea here is to transfer python code to R in order to run deep reinforcement learning algorithms directly in the R shell. For theoretical background please refer to dedicated publications, e.g.<br>
 Mnih <i>et al.</i> Playing Atari with Deep Reinforcement Learning (2013)<br>
 Youtube: RL Course by David Silver<br>
 Sutton & Barto,  Reinforcement Learning: An Introduction 2nd ed. (free online)<br>
